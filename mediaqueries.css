@@ -27,11 +27,11 @@
 }
 
 @media (max-width: 767px) {
-    #seccion-formacion .container .formacion-container .estudio .info-estudio h3 {
+    #seccion-formacion .container .formacion-container .estudio .info-estudio h4 {
         font-size: 1.2rem;
     }
 
-    #seccion-formacion .container .formacion-container .estudio .info-estudio h4 {
+    #seccion-formacion .container .formacion-container .estudio .info-estudio h5 {
         font-size: 1rem;
     }
 
@@ -75,12 +75,6 @@
         height: 100px;
     }
 
-    #seccion-tecnologias .tecnologias-container .tecnologia .nombre-tecnologia,
-    #seccion-formacion .container .formacion-container .titulo-formacion,
-    #seccion-habilidades h2 {
-        font-size: 1.5rem;
-    }
-
     #seccion-proyectos .container .lista-proyectos .proyecto {
         width: 275px;
         height: 275px;
@@ -107,6 +101,14 @@
     #seccion-formacion .container .formacion-container .estudio img {
         width: 80px;
         height: 80px;
+    }
+
+    #seccion-inicio .container .texto-seccion h1 {
+        font-size: 1.5rem;
+    }
+
+    #seccion-inicio .container .texto-seccion h2 {
+        font-size: 1.25rem;
     }
 }
 
